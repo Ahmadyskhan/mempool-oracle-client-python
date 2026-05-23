@@ -1,1 +1,0 @@
-Open source Python client for connecting to the Mempool Oracle SSE Feed
