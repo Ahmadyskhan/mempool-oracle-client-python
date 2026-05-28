@@ -30,7 +30,7 @@ def listen_to_oracle():
     
     try:
         # Stream the encrypted HTTPS response in real-time
-        with requests.get(ENDPOINT, stream=True, timeout=10) as response:
+        with requests.get(ENDPOINT, stream=True, timeout=10, None) as response:
             
             if response.status_code == 401:
                 print("[-] Access Denied. Invalid API Key.")
